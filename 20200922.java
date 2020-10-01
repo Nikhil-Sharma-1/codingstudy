@@ -1,6 +1,8 @@
 class Solution {
     public int[] solution(int[] prices) {
+        //created an empty array
         int[] answer = {};
+        //To find the length of an array we use array.length  
         answer = new int [prices.length];
         int count = 0;
         int val = 0;
